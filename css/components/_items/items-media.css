@@ -1,0 +1,27 @@
+@media (max-width: 1024px) {
+
+}
+
+
+@media (max-width: 768px ) {
+    
+}
+
+@media (max-width: 480px ) {
+    .items-wrapper {
+        flex-wrap: wrap;
+        display: block;
+    }
+    .items-wrapper div {
+        margin: 10px 0;
+    }
+
+    }
+
+
+
+@media (max-width: 320px) {
+    .items-wrapper div .item-text {
+        border-bottom: 1px #d5d5d5 solid;
+    }
+}

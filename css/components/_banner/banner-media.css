@@ -1,0 +1,33 @@
+@media (max-width: 1024px) {
+
+}
+
+
+@media (max-width: 768px ) {
+    .banner-wrapper {
+        justify-content: center;
+    }
+    .banner-wrapper .phone img {
+        display: none;
+    
+    }
+    .phone {
+        width: 0%;
+    }
+    .text {
+        width: 100%;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px ) {
+    
+    }
+
+
+
+@media (max-width: 320px) {
+    .text {
+        text-align: center;
+    }
+}
